@@ -1,0 +1,34 @@
+[2021-05-09 02:56:26] COMMAND: train.py --model dncnn --min_noise 0 --max_noise 30
+[2021-05-09 02:56:26] Arguments: {'data_path': 'data', 'dataset': 'bsd400', 'batch_size': 32, 'model': 'dncnn', 'noise_mode': 'B', 'noise_std': 25, 'min_noise': 0.0, 'max_noise': 30.0, 'lr': 0.001, 'num_epochs': 30, 'valid_interval': 1, 'save_interval': 1, 'seed': 0, 'output_dir': 'D:\\0-cs\\bf\\bias_free_denoising-master\\experiments', 'experiment': 'dncnn-BF-0.0-30.0-May.09.02.56.26', 'resume_training': False, 'restore_file': None, 'no_save': False, 'step_checkpoints': False, 'no_log': False, 'log_interval': 100, 'no_visual': False, 'visual_interval': 100, 'no_progress': False, 'draft': False, 'dry_run': False, 'in_channels': 1, 'hidden_size': 64, 'num_layers': 20, 'bias': False, 'experiment_dir': 'D:\\0-cs\\bf\\bias_free_denoising-master\\experiments\\dncnn\\dncnn-BF-0.0-30.0-May.09.02.56.26', 'checkpoint_dir': 'D:\\0-cs\\bf\\bias_free_denoising-master\\experiments\\dncnn\\dncnn-BF-0.0-30.0-May.09.02.56.26\\checkpoints', 'log_dir': 'D:\\0-cs\\bf\\bias_free_denoising-master\\experiments\\dncnn\\dncnn-BF-0.0-30.0-May.09.02.56.26\\logs', 'log_file': 'D:\\0-cs\\bf\\bias_free_denoising-master\\experiments\\dncnn\\dncnn-BF-0.0-30.0-May.09.02.56.26\\logs\\train.log'}
+[2021-05-09 02:56:29] Built a model consisting of 667,008 parameters
+[2021-05-09 04:23:12] epoch 00 | train_loss 1.250 | train_psnr 32.882 | train_ssim 0.879 | valid_psnr 32.053 | valid_ssim 0.887 | lr 1.0e-03
+[2021-05-09 05:49:43] epoch 01 | train_loss 1.274 | train_psnr 32.678 | train_ssim 0.879 | valid_psnr 32.290 | valid_ssim 0.890 | lr 1.0e-03
+[2021-05-09 07:16:15] epoch 02 | train_loss 1.240 | train_psnr 32.982 | train_ssim 0.883 | valid_psnr 32.222 | valid_ssim 0.889 | lr 1.0e-03
+[2021-05-09 08:44:16] epoch 03 | train_loss 1.225 | train_psnr 33.043 | train_ssim 0.885 | valid_psnr 32.018 | valid_ssim 0.880 | lr 1.0e-03
+[2021-05-09 10:10:54] epoch 04 | train_loss 1.221 | train_psnr 33.068 | train_ssim 0.885 | valid_psnr 32.357 | valid_ssim 0.891 | lr 1.0e-03
+[2021-05-09 11:37:39] epoch 05 | train_loss 1.204 | train_psnr 33.042 | train_ssim 0.886 | valid_psnr 32.204 | valid_ssim 0.883 | lr 1.0e-03
+[2021-05-09 13:04:21] epoch 06 | train_loss 1.196 | train_psnr 33.147 | train_ssim 0.886 | valid_psnr 32.570 | valid_ssim 0.899 | lr 1.0e-03
+[2021-05-09 14:31:07] epoch 07 | train_loss 1.161 | train_psnr 33.224 | train_ssim 0.890 | valid_psnr 32.529 | valid_ssim 0.898 | lr 1.0e-03
+[2021-05-09 15:57:49] epoch 08 | train_loss 1.139 | train_psnr 33.443 | train_ssim 0.890 | valid_psnr 32.517 | valid_ssim 0.895 | lr 1.0e-03
+[2021-05-09 17:24:31] epoch 09 | train_loss 1.167 | train_psnr 33.295 | train_ssim 0.891 | valid_psnr 32.606 | valid_ssim 0.900 | lr 1.0e-03
+[2021-05-09 18:51:12] epoch 10 | train_loss 1.179 | train_psnr 33.216 | train_ssim 0.887 | valid_psnr 32.620 | valid_ssim 0.898 | lr 1.0e-03
+[2021-05-09 20:20:02] epoch 11 | train_loss 1.155 | train_psnr 33.299 | train_ssim 0.891 | valid_psnr 32.548 | valid_ssim 0.898 | lr 1.0e-03
+[2021-05-09 21:47:38] epoch 12 | train_loss 1.173 | train_psnr 33.183 | train_ssim 0.889 | valid_psnr 32.583 | valid_ssim 0.898 | lr 1.0e-03
+[2021-05-09 23:15:05] epoch 13 | train_loss 1.152 | train_psnr 33.294 | train_ssim 0.888 | valid_psnr 32.602 | valid_ssim 0.899 | lr 1.0e-03
+[2021-05-10 00:43:10] epoch 14 | train_loss 1.156 | train_psnr 33.347 | train_ssim 0.891 | valid_psnr 32.629 | valid_ssim 0.901 | lr 1.0e-03
+[2021-05-10 02:10:51] epoch 15 | train_loss 1.161 | train_psnr 33.369 | train_ssim 0.892 | valid_psnr 32.633 | valid_ssim 0.899 | lr 1.0e-03
+[2021-05-10 03:38:57] epoch 16 | train_loss 1.158 | train_psnr 33.283 | train_ssim 0.892 | valid_psnr 32.601 | valid_ssim 0.898 | lr 1.0e-03
+[2021-05-10 05:06:38] epoch 17 | train_loss 1.130 | train_psnr 33.481 | train_ssim 0.891 | valid_psnr 32.621 | valid_ssim 0.901 | lr 1.0e-03
+[2021-05-10 06:34:25] epoch 18 | train_loss 1.145 | train_psnr 33.428 | train_ssim 0.891 | valid_psnr 32.673 | valid_ssim 0.901 | lr 1.0e-03
+[2021-05-10 08:02:23] epoch 19 | train_loss 1.131 | train_psnr 33.386 | train_ssim 0.892 | valid_psnr 32.603 | valid_ssim 0.900 | lr 1.0e-03
+[2021-05-10 09:30:07] epoch 20 | train_loss 1.162 | train_psnr 33.372 | train_ssim 0.890 | valid_psnr 32.657 | valid_ssim 0.902 | lr 1.0e-03
+[2021-05-10 10:57:41] epoch 21 | train_loss 1.134 | train_psnr 33.424 | train_ssim 0.890 | valid_psnr 32.642 | valid_ssim 0.899 | lr 1.0e-03
+[2021-05-10 12:25:32] epoch 22 | train_loss 1.194 | train_psnr 33.225 | train_ssim 0.887 | valid_psnr 32.614 | valid_ssim 0.901 | lr 1.0e-03
+[2021-05-10 13:53:28] epoch 23 | train_loss 1.117 | train_psnr 33.525 | train_ssim 0.895 | valid_psnr 32.665 | valid_ssim 0.902 | lr 1.0e-03
+[2021-05-10 15:21:26] epoch 24 | train_loss 1.157 | train_psnr 33.404 | train_ssim 0.891 | valid_psnr 32.646 | valid_ssim 0.900 | lr 1.0e-03
+[2021-05-10 16:49:26] epoch 25 | train_loss 1.183 | train_psnr 33.167 | train_ssim 0.890 | valid_psnr 32.672 | valid_ssim 0.901 | lr 1.0e-03
+[2021-05-10 18:17:26] epoch 26 | train_loss 1.132 | train_psnr 33.452 | train_ssim 0.891 | valid_psnr 32.667 | valid_ssim 0.901 | lr 1.0e-03
+[2021-05-10 19:45:30] epoch 27 | train_loss 1.134 | train_psnr 33.434 | train_ssim 0.892 | valid_psnr 32.690 | valid_ssim 0.901 | lr 1.0e-03
+[2021-05-10 21:13:30] epoch 28 | train_loss 1.129 | train_psnr 33.409 | train_ssim 0.892 | valid_psnr 32.428 | valid_ssim 0.890 | lr 1.0e-03
+[2021-05-10 22:41:39] epoch 29 | train_loss 1.137 | train_psnr 33.302 | train_ssim 0.892 | valid_psnr 32.639 | valid_ssim 0.900 | lr 1.0e-03
+[2021-05-10 22:41:39] Done training! Best PSNR 32.690 obtained after step 352799.
