@@ -1,0 +1,3 @@
+### Grayscale denoising ###
+	No noise was added, cannot compute PSNR
+	Runtime 29.5835s
